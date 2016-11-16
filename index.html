@@ -1,23 +1,38 @@
----
-layout: default
----
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Test Site</title>
+<link href="css/test.css" rel="stylesheet" type="text/css">
+</head>
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<body>
+<div class="header">
+	<h1>
+		Northern Collegiate Institute and Vocational School
+	</h1>
 </div>
+<!--
+<div id="space">
+	.
+</div>
+-->
+<div class="menu">
+	<uo>
+		<a href="linktest.html"><li>About Northern</li></a>
+		<a href="linktest.html"><li>Activities</li></a>
+		<a href="linktest.html"><li>Athletics</li></a>
+		<a href="linktest.html"><li>Departments</li></a>
+		<a href="linktest.html"><li>Library</li></a>
+		<a href="linktest.html"><li>Newsletters</li></a>
+		<a href="linktest.html"><li>Student Services</li></a>
+		<a href="linktest.html"><li>Contact</li></a>
+	</uo>
+</div>
+<div id="burke">
+	<h2>
+		Winston Churchill has taken over
+	</h2>
+</div>
+</body>
+</html>
