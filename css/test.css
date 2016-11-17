@@ -3,12 +3,12 @@
 * {
 	padding: 0px;
 	margin: 0px;
-	font-family: raleway, sans-serif;
-	font-weight: lighter;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
 	text-decoration: none;
 }
 h1 {
-	font-family: raleway, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 50px;
 	font-weight: lighter;
 	position: relative;
@@ -32,7 +32,7 @@ uo li {
 	background-color: #d34848;
 	font-size: 20px;
 	display: inline;
-	padding: 40px;
+	padding: 2%;
 	color: #ECECEC;
 	padding-bottom: 5px;
 	transition: all 0.3s ease 0s;
@@ -42,7 +42,7 @@ uo li:hover {
 	background-color: #CF3838;
 }
 
-#burke {
+#main {
 	font-size: 100px;
 	text-align: center;
 	padding-top: 130px;
