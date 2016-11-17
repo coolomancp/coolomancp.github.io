@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "utf-8";
 /* CSS Document */
 * {
@@ -47,3 +48,54 @@ uo li:hover {
 	text-align: center;
 	padding-top: 130px;
 }
+=======
+@charset "utf-8";
+/* CSS Document */
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	text-decoration: none;
+}
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	font-weight: lighter;
+	position: relative;
+	text-align: center;
+	background-color: #d34848;
+	color: #D8D8D8;
+}
+
+#space {
+	visibility: hidden;
+}
+
+div.menu {
+	background-color: #d34848;
+	text-align: center;
+	padding: 5px;
+}
+
+uo li {
+	list-style-type: none;
+	background-color: #d34848;
+	font-size: 20px;
+	display: inline;
+	padding: 2%;
+	color: #ECECEC;
+	padding-bottom: 5px;
+	transition: all 0.3s ease 0s;
+	opacity: 1;
+}
+uo li:hover {
+	background-color: #CF3838;
+}
+
+#main {
+	font-size: 100px;
+	text-align: center;
+	padding-top: 130px;
+}
+>>>>>>> 05bec933e3a75e8d6d4bf48d783d4e7ac37c51ae
